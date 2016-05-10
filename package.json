@@ -1,0 +1,11 @@
+{
+  "name": "npm-preinstall",
+  "version": "1.0.0",
+  "scripts": {
+    "preinstall": "echo \"Executing preinstall hook\"",
+    "postinstall": "echo \"Executing postinstall hook\""
+  },
+  "dependencies": {
+    "lodash": "^4.12.0"
+  }
+}
